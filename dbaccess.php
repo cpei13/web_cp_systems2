@@ -30,6 +30,7 @@ function escape1($str)
 </head>
 <body>
 Last Access Time<br><br>
+Add comment by chenpei<br><br>
 <?php foreach ($rec as $a):?>
 	<?=escape1($a)?><br>
 <?php endforeach; ?>
